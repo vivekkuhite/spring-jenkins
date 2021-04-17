@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringJenkinsApplicationTests {
 	
-	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+	public static Logger logger1 = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("Test cases executing..");
